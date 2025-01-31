@@ -530,3 +530,49 @@ img {
 .footer-item-soc-icon .footer-soc:focus {
   background-color: #31d0aa;
 }
+.subscribe-content {
+  width: 453px;
+  margin-left: auto;
+}
+
+.subscribe-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.subscribe-form {
+  display: flex;
+  gap: 24px;
+}
+
+.subscribe-label {
+  display: flex;
+  flex-direction: column;
+}
+.subscribe-input {
+  border: 1px solid #fff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  padding-left: 16px;
+  border-radius: 4px;
+  width: 264px;
+  height: 40px;
+  outline: none;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.subscribe-input:focus {
+  border-color: #31d0aa;
+}
+
+.subscribe-input::placeholder {
+  color: #ffffff;
+}
